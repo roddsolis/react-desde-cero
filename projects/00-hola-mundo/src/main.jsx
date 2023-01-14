@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
 
-<button>soy un boton</button>
+ <React.Fragment>
+
+     <button>soy un boton</button>
+     <button>soy un boton</button>
+     <button>soy un boton</button>
+
+ </React.Fragment>
+
 
 )
 
-
+/* todos los componentes deben estar escritos en pascal case */
